@@ -4,6 +4,14 @@ cPanel WHM Feature Manager — WordPress Hosting optimized feature list for defa
 
 ---
 
+## 🚀 วิธีใช้งาน
+
+```bash
+curl -sS https://raw.githubusercontent.com/AnonymousVS/cPanel-Feature-Manager/main/set-default-features.sh | bash
+```
+
+---
+
 ## 📋 Description
 
 Script สำหรับตั้งค่า Feature List `default` ใน cPanel WHM  
@@ -47,32 +55,6 @@ Script สำหรับตั้งค่า Feature List `default` ใน cPa
 - Legacy (fantastico, agora, bbs, chat ฯลฯ)
 - Perl/Ruby/PostgreSQL
 - และอื่นๆ ที่ไม่จำเป็นสำหรับ WordPress hosting
-
----
-
-## 🚀 วิธีใช้งาน
-
-### วิธีที่ 1 — สร้างไฟล์และรันพร้อมกัน (แนะนำ)
-
-```bash
-curl -o /root/set-default-features.sh https://raw.githubusercontent.com/AnonymousVS/cPanel-Feature-Manager/main/set-default-features.sh && bash /root/set-default-features.sh
-```
-
-### วิธีที่ 2 — Manual
-
-```bash
-# 1. Download
-wget -O /root/set-default-features.sh https://raw.githubusercontent.com/AnonymousVS/cPanel-Feature-Manager/main/set-default-features.sh
-
-# 2. รัน
-bash /root/set-default-features.sh
-```
-
-### วิธีที่ 3 — Copy Paste
-
-```bash
-# Copy เนื้อหาในไฟล์ set-default-features.sh วางใน terminal แล้วกด Enter
-```
 
 ---
 
