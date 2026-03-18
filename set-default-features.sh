@@ -11,7 +11,7 @@ cp "$FEATURE_FILE" "${FEATURE_FILE}.bak.$(date +%Y%m%d%H%M%S)"
 echo "✅ Backup done"
 
 cat > "$FEATURE_FILE" << 'EOF'
-softaculous=1
+softaculous=0
 wp_softaculous=1
 wp-toolkit=1
 wp-toolkit-deluxe=1
